@@ -58,12 +58,6 @@ public class LinkedList
       return find(index).data;
   }
 
-/**
-   * Удалить элемент из списка
-   * @param index Индекс удаляемого элемента
-   * @return значение элемента
-   */
-
   public Integer remove(int index)
   {
     Integer temp = find(index).data;
